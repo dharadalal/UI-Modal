@@ -1,0 +1,139 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    /* background-image:  url('https://source.unsplash.com/1600x900/?holiday,workoutimg_girl.jpg'); */
+}
+body{
+    background-image:  url('https://source.unsplash.com/1600x900/?holiday,workoutimg_girl.jpg');
+    background-size: cover;     
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 5rem;
+    text-align: center;
+}
+
+.container div {
+    margin: 1rem;
+}
+
+.modal {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-container {
+    background-color: white;
+    color: black;
+    font-size: 1.2em;
+    padding: 2rem;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-close-btn{
+    align-self: flex-end;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.modal.hide {
+    display: none;   
+}
+
+/* .box-modal{ 
+    margin : auto;
+    display: flex;
+    width:700px;
+    height:150px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+ .open_btn {
+    color: royalblue;
+    text-align: center;
+    background-color: white;
+   border: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 10px;
+}
+.hide_background{
+    z-index: -1;
+    opacity: 1;
+}
+.open_btn:hover{
+
+    background-color: skyblue;
+    
+}
+.open-modal{
+background-color: white;
+border: 2px solid black;
+position: fixed;
+top:50%;
+left: 50%;
+transform: translate(-50%,-50%);
+padding: 20px;
+display: none;
+}
+
+.text{
+    font-size: 1.2em;
+    color:black;
+    font-weight: bold;
+    line-height: 2em;
+}
+
+.content{
+    font-size: 1em;
+    color:black;
+    /* font-weight: ; */
+
+/* .show-open-modal
+{
+background-color: white;
+border: 2px solid black;
+position: fixed;
+top:50%;
+left: 50%;
+transform: translate(-50%,-50%);
+padding: 20px;
+display: block;
+
+}  */
+/* 
+.box-modal.blur {
+    filter: blur(5px);
+  } */ 
